@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		981797E5201152E000D08C7F /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 981797E4201152E000D08C7F /* placeholder.png */; };
+		981797E7201154C700D08C7F /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 981797E6201154C600D08C7F /* GoogLeNetPlaces.mlmodel */; };
 		983B5FE91FC3639D0080E46B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B5FE81FC3639D0080E46B /* AppDelegate.swift */; };
 		983B5FEB1FC3639D0080E46B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B5FEA1FC3639D0080E46B /* ViewController.swift */; };
 		983B5FEE1FC3639D0080E46B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983B5FEC1FC3639D0080E46B /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		981797E4201152E000D08C7F /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		981797E6201154C600D08C7F /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		983B5FE51FC3639D0080E46B /* ImageRecognitionCoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRecognitionCoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		983B5FE81FC3639D0080E46B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		983B5FEA1FC3639D0080E46B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				983B5FE81FC3639D0080E46B /* AppDelegate.swift */,
 				983B5FEA1FC3639D0080E46B /* ViewController.swift */,
 				983B5FEC1FC3639D0080E46B /* Main.storyboard */,
+				981797E4201152E000D08C7F /* placeholder.png */,
+				981797E6201154C600D08C7F /* GoogLeNetPlaces.mlmodel */,
 				983B5FEF1FC3639D0080E46B /* Assets.xcassets */,
 				983B5FF11FC3639D0080E46B /* LaunchScreen.storyboard */,
 				983B5FF41FC3639D0080E46B /* Info.plist */,
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				983B5FF31FC3639D0080E46B /* LaunchScreen.storyboard in Resources */,
+				981797E5201152E000D08C7F /* placeholder.png in Resources */,
 				983B5FF01FC3639D0080E46B /* Assets.xcassets in Resources */,
 				983B5FEE1FC3639D0080E46B /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			files = (
 				983B5FEB1FC3639D0080E46B /* ViewController.swift in Sources */,
 				983B5FE91FC3639D0080E46B /* AppDelegate.swift in Sources */,
+				981797E7201154C700D08C7F /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
